@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(233, 235, 236);
+}
+
+.navbar{
+    background-color: rgb(220, 223, 225);
+    height: 25vh;
+    width: 100%;
+    /* display: flex; */
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.mode{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+
+.upper-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65PX;
+    
+}
+
+
+.cards{
+    height: 20vh;
+    width: 150px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.upper-cards > .card-1 {
+    background-color: hsl(230, 12%, 80%);
+    height: 20vh;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 4px solid hsl(208, 92%, 53%);
+
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    margin-top: 7px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.upper-cards > .card-2 {
+    background-color: hsl(230, 12%, 80%);
+    height: 20vh;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 4px solid hsl(208, 92%, 53%);
+}
+
+.upper-cards > .card-3 {
+    background-color: hsl(230, 12%, 80%);
+    height: 20vh;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 4px solid hsl(329, 70%, 58%);
+}
+
+.upper-cards > .card-4 {
+    background-color: hsl(230, 12%, 80%);
+    height: 20vh;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 4px solid hsl(329, 70%, 58%);
+}
+
+.cards p {
+    margin-left: 28px;
+    display: flex;
+
+  }
+  
+   #green{
+    color: rgb(6, 111, 6);
+   }
+   
+   #red{
+    color: red;
+   }
+
+   #table{
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: medium;
+    color: rgb(143, 141, 141);
+   }
+
+   #img > h2{
+    font-size: 14px;
+   }
+
+
+
