@@ -27,10 +27,20 @@
     max-width: 1000px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 32px; 
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+  }
+
+  #four-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70vw;
+    padding: 50px;
+    margin-left: -40px;
   }
   
   .dark-mode-container {
@@ -48,6 +58,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px; 
+    
   }
   
   .dark-mode-text {
@@ -75,6 +86,7 @@
   .main-card {
     max-width: 600px;
     padding: 32px 0; 
+    
   }
   
   .dashboard-title {

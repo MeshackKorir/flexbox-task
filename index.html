@@ -8,13 +8,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
   
-  <title>Frontend Mentor | social-media-dashboard</title>
-
-  
+  <title>css flexbox</title>
   
 </head>
 <body>
   <main class="container">
+
     <section class="title-section">
       <div class="navbar-text">
         <h1 class="dashboard-title">Social Media Dashboard</h1>
@@ -27,44 +26,49 @@
         </div>
       </div>
     </section>
+
     <section class="dashboard main-flex">
-      <div class="main-card main-card--fb-tw">
-        <div class="icon-container">
-          <img src="./images/icon-facebook.svg" alt="" class="social-icon">
-          <p class="icon-text">@nathanf</p>
+      <div id="four-cards">
+        <div class="main-card main-card--fb-tw">
+          <div class="icon-container">
+            <img src="./images/icon-facebook.svg" alt="" class="social-icon">
+            <p class="icon-text">@nathanf</p>
+          </div>
+          <p class="followers-num">1987</p>
+          <p class="followers-text">Followers</p>
+          <p class="today-num green">12 Today</p>
         </div>
-        <p class="followers-num">1987</p>
-        <p class="followers-text">Followers</p>
-        <p class="today-num green">12 Today</p>
-      </div>
-      <div class="main-card main-card--fb-tw">
-        <div class="icon-container">
-          <img src="./images/icon-twitter.svg" alt="" class="social-icon">
-          <p class="icon-text">@nathanf</p>
+        <div class="main-card main-card--fb-tw">
+          <div class="icon-container">
+            <img src="./images/icon-twitter.svg" alt="" class="social-icon">
+            <p class="icon-text">@nathanf</p>
+          </div>
+          <p class="followers-num">1044</p>
+          <p class="followers-text">Followers</p>
+          <p class="today-num green">99 Today</p>
         </div>
-        <p class="followers-num">1044</p>
-        <p class="followers-text">Followers</p>
-        <p class="today-num green">99 Today</p>
-      </div>
-      <div class="main-card main-card--insta">
-        <div class="icon-container">
-          <img src="./images/icon-instagram.svg" alt="" class="social-icon">
-          <p class="icon-text">@realnathanf</p>
+        <div class="main-card main-card--insta">
+          <div class="icon-container">
+            <img src="./images/icon-instagram.svg" alt="" class="social-icon">
+            <p class="icon-text">@realnathanf</p>
+          </div>
+          <p class="followers-num">11k</p>
+          <p class="followers-text">Followers</p>
+          <p class="today-num green">1099 Today</p>
         </div>
-        <p class="followers-num">11k</p>
-        <p class="followers-text">Followers</p>
-        <p class="today-num green">1099 Today</p>
-      </div>
-      <div class="main-card main-card--yt">
-        <div class="icon-container">
-          <img src="./images/icon-youtube.svg" alt="" class="social-icon">
-          <p class="icon-text">Nathan F.</p>
+        <div class="main-card main-card--yt">
+          <div class="icon-container">
+            <img src="./images/icon-youtube.svg" alt="" class="social-icon">
+            <p class="icon-text">Nathan F.</p>
+          </div>
+          <p class="followers-num">8239</p>
+          <p class="followers-text">Subscribers</p>
+          <p class="today-num red">144 Today</p>
         </div>
-        <p class="followers-num">8239</p>
-        <p class="followers-text">Subscribers</p>
-        <p class="today-num red">144 Today</p>
       </div>
+      
     </section>
+    
     <section class="overview main-flex">
       <h2 class="subtitle">Overview - Today</h2>
     </section>
